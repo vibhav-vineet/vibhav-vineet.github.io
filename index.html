@@ -1,790 +1,260 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
 <head>
-<link rel="shortcut icon" href="myIcon.ico">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-
-<meta name="keywords" content="Hengshuang Zhao, Zhao Hengshuang, Hengshuang, HKU, University of Hong Kong, MIT, Oxford, CUHK, The Chinese University of Hong Kong, Computer Vision, Machine, Learning, Artificial Intelligence"> 
-<meta name="description" content="Hengshuang Zhao is an Assistant Professor at HKU.">
-<meta name="google-site-verification" content="yy_3iiS_X6pJdegdwitJMrH0LRLHXwpjrV9RKLXxKjg" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css">
-<title>Hengshuang Zhao Homepage</title>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-87320911-1', 'auto');
-  ga('send', 'pageview');
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var b=window,e="chrome",g="tick",h="wtsrt_",l="tbsd_",m="tbnd_",n="start",p="_wtsrt",q="_tbnd",r="CSI/";(function(){function k(a){this.t={};this.tick=function(a,d,c){this.t[a]=[void 0!=c?c:(new Date).getTime(),d];if(void 0==c)try{b.console.timeStamp(r+a)}catch(f){}};this[g](n,null,a)}var a;b.performance&&(a=b.performance.timing);var t=a?new k(a.responseStart):new k;b.jstiming={Timer:k,load:t};if(a){var d=a.navigationStart,f=a.responseStart;0<d&&f>=d&&(b.jstiming.srt=f-d)}if(a){var c=b.jstiming.load;0<d&&f>=d&&(c[g](p,void 0,d),c[g](h,p,f),c[g](l,h))}try{a=null,b[e]&&b[e].csi&&(a=Math.floor(b[e].csi().pageT),
+c&&0<d&&(c[g](q,void 0,b[e].csi().startE),c[g](m,q,d))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,c&&0<d&&(c[g](q,void 0,b.external.startE),c[g](m,q,d))),a&&(b.jstiming.pt=a)}catch(u){}})(); })()
 </script>
+<link rel="shortcut icon" href="/_/rsrc/1405273262638/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/9c93c9/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { var d=window,e="length",h="",k="__duration__",l="function";function m(c){return document.getElementById(c)}d.byId=m;function n(c){return c.replace(/^\s+|\s+$/g,h)}d.trim=n;var p=[],q=0;d.JOT_addListener=function(c,a,b){var f=new String(q++);c={eventName:c,handler:a,compId:b,key:f};p.push(c);return f};d.JOT_removeListenerByKey=function(c){for(var a=0;a<p[e];a++)if(p[a].key==c){p.splice(a,1);break}};d.JOT_removeAllListenersForName=function(c){for(var a=0;a<p[e];a++)p[a].eventName==c&&p.splice(a,1)};
+d.JOT_postEvent=function(c,a,b){var f={eventName:c,eventSrc:a||{},payload:b||{}};if(d.JOT_fullyLoaded)for(a=p[e],b=0;b<a&&b<p[e];b++){var g=p[b];g&&g.eventName==c&&(f.listenerCompId=g.compId||h,(g=typeof g.handler==l?g.handler:d[g.handler])&&g(f))}else d.JOT_delayedEvents.push({eventName:c,eventSrc:a,payload:b})};d.JOT_delayedEvents=[];d.JOT_fullyLoaded=!1;
+d.JOT_formatRelativeToNow=function(c,a){var b=((new Date).getTime()-c)/6E4;if(1440<=b||0>b)return null;var f=0;60<=b&&(b/=60,f=2);2<=b&&f++;return a?d.JOT_siteRelTimeStrs[f].replace(k,Math.floor(b)):d.JOT_userRelTimeStrs[f].replace(k,Math.floor(b))}; })()
+</script>
+<script>
+
+
+var webspace = {"scottyUrl":"/_/upload","isConsumer":true,"canPublishScriptToAnyone":true,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"sharingUrlPrefix":"/_/sharing","csiReportUri":"http://csi.gstatic.com/csi","sharingPolicy":"OPENED","siteNoticeUrlEnabled":null,"siteNoticeUrlAddress":null,"analyticsAccountId":"","baseUri":"","enableUniversalAnalytics":false,"name":"philkra","features":{"copySiteProgressUpdates":true,"asyncPermanentDelete":true,"colorsAndFontsFix":true,"docosHideNotificationSettings":true,"driveImageLinkFromOnepick":true,"moreMobileStyleImprovements":true,"siteNoticeUrl":true,"pageDrafts":false,"asyncPageKeyFix":true,"fileCabinetScreenReaderFix":true,"pdfEmbedSupport":false,"mobileOrientationFix":true,"siteMapBottomPaginationButtonsFix":true,"newMyMapsEmbeds":true,"plusBadge":false,"analyticsTrackingForCorp":false,"freebirdFormEmbedDocTypeFix":true,"updatedTosAndPrivacyLinks":null,"htmlEmbed":true,"newCountDownDialog":true,"pageTreeKeyboardFix":true,"useGapiIframesForOnePick":false,"languageSelectDefaultTextSetToDefault":true,"domainAnalyticsInGAOnly":true},"domain":"defaultdomain","adsensePublisherId":null,"gvizVersion":1,"siteTitle":"Vibhav V\u00e4henb\u00fchl","signInUrl":"https://www.google.com/a/SelectSession?continue\u003dhttp://sites.google.com/site/philkra/code\u0026service\u003djotspot","pageSharingId":"jotspot_page","plusPageId":"","onepickBaseUrl":"https://docs.google.com","siteNoticeRevision":null,"termsUrl":"//www.google.com/intl/en/policies/terms/","enableAnalytics":false,"isPublic":true,"siteNoticeMessage":null,"plusPageUrl":"","homePath":"/","sharingId":"jotspot","isAdsenseEnabled":true,"adsensePromoClickedOrSiteIneligible":true,"isStartPageEnabled":false,"domainAnalyticsAccountId":""};
+
+
+
+webspace.gadgets = {"baseUri":"/system/app/pages/gadgets"};
+
+
+webspace.user = {"uid":"","renderMobile":false,"namespaceUser":false,"sessionIndex":"","primaryEmail":"guest","displayNameOrEmail":"guest","namespace":"","hasAdminAccess":false,"guest_":true,"keyboardShortcuts":true,"hasWriteAccess":false,"domain":"","dasherUser":false,"userName":"guest"};
+
+webspace.page = {"canDeleteWebspace":null,"locale":"en","state":"","wuid":"wuid:gx:5ed5792809a37c09","pageInheritsPermissions":null,"timeZone":"America/Los_Angeles","properties":{},"type":"text","canChangePath":true,"parentWuid":null,"isPageDraft":null,"revision":13,"title":"Code","isRtlLocale":false,"bidiEnabled":false,"siteLocale":"en","name":"code","path":"/code","isSiteRtlLocale":false,"parentPath":null};
+webspace.page.breadcrumbs = [{"title":"Code","dir":"ltr","path":"/code","deleted":false}];
+
+
+webspace.editorResources = {
+  text: [
+    'http://www.gstatic.com/sites/p/9c93c9/system/js/codemirror.js',
+    'http://www.gstatic.com/sites/p/9c93c9/system/app/css/codemirror_css.css',
+    'http://www.gstatic.com/sites/p/9c93c9/system/js/trog_edit__en.js',
+    'http://www.gstatic.com/sites/p/9c93c9/system/app/css/trogedit.css',
+    '/_/rsrc/1422456658000/system/app/css/editor.css',
+    'http://www.gstatic.com/sites/p/9c93c9/system/app/css/codeeditor.css',
+    '/_/rsrc/1422456658000/system/app/css/camelot/editor-jfk.css'
+  ],
+  sitelayout: [
+    'http://www.gstatic.com/sites/p/9c93c9/system/app/css/sitelayouteditor.css'
+  ]
+};
+
+var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/9c93c9/system/app/images/cleardot.gif';
+
+
+var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+
+webspace.siteTemplateId = false;
+
+
+webspace.page.currentTemplate = {"title":"Web Page","path":"/system/app/pagetemplates/text"};
+
+
+
+var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<link rel="canonical" href="http://stanford.edu/~vibhavv/code.html" />
+<meta name="title" content="Code - Vibhav Vineet" />
+<meta itemprop="name" content="Code - Vibhav Vineet" />
+<meta property="og:title" content="Code - Vibhav Vineet" />
+<meta name="description" content="Vibhav's research page" />
+<meta itemprop="description" content="Vibhav's research page" />
+<meta id="meta-tag-description" property="og:description" content="Vibhav's research page" />
+<style type="text/css">
+      
+      @font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(//fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(//fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(//fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/9c93c9/system/app/themes/ski/standard-css-ski-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1422456658000/system/app/css/overlay.css?cb=ski3a150goog-ws-nav-noside-noheadnone30themedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1422456658000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+
+
+
+<title>Vibhav Vineet</title>
+<meta itemprop="image" content="https://sites.google.com/site/attractivepersonalwebsite/_/rsrc/1410624312939/home/1a.png" />
+<meta property="og:image" content="https://sites.google.com/site/attractivepersonalwebsite/_/rsrc/1410624312939/home/1a.png" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
 </head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox-centered" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+<td id="sites-header-title" class="sites-header-title-centered sites-chrome-header-valign-middle" role="banner" style="height: 50px"><div class="sites-header-cell-buffer-wrapper"><h2><a href="https://sites.google.com/site/attractivepersonalwebsite/" dir="ltr" id="sites-chrome-userheader-title">Vibhav Vineet</a></h2></div></td>
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+<div class="sites-header-nav"><ul class="sites-header-nav-container-links"><li class="current"><a class="sites-navigation-link current" href="index.html">Home</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="publication.html">Publication</a></li><li class="unselected"><a class="sites-navigation-link unselected" href="collaborators.html">Collaborators</a></li> <li class="unselected"><a class="sites-navigation-link unselected" href="bio.html">Bio</a></li><div style="clear: both;"></div></div>
+</td>
+</tr>
+</table> 
+</div> 
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left" style="display: none; width: 150px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList"><li class="nav-first "><div class="current-bg" jotId="wuid:gx:1d135b2208341774" dir="ltr" style="padding-left: 5px;">Home</div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/attractivepersonalwebsite/website-builder" jotId="wuid:gx:2f23f595b3bac47f" class="sites-navigation-link">Event Calendar</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/attractivepersonalwebsite/products-services" jotId="wuid:gx:ae7463c7afb56f0" class="sites-navigation-link">My Gallery</a></div></li><li class=""><div dir="ltr" style="padding-left: 5px;"><a href="/site/attractivepersonalwebsite/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:3bd4c70dc04a1d20" class="sites-navigation-link">Sitemap</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="display: none;">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="display: none;" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Home</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-layout-name-two-column-hf sites-layout-vbox"><div class="sites-layout-tile sites-tile-name-header"><div dir="ltr"><div style="text-align:left"><i style="font-family:arial,sans-serif;font-size:medium;line-height:1.5;background-color:transparent"><span style="color:rgb(68,68,68);text-align:justify">"Cogito ergo sum </span><span style="color:rgb(68,68,68);line-height:1.5;text-align:justify;background-color:transparent"> (I think, therefore I am)."</span></i></div>
 
-<body>
+<div style="text-align:center"><font face="arial, sans-serif" size="0"><i><span style="color:rgb(68,68,68);line-height:0.1;text-align:justify;background-color:transparent"><br /></span></i></font></div></div></div>
 
-<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-    <div id="layout-menu">
-        <a href="#publication">Publication</a>
-        <a href="#experience">Experience</a>
-        <a href="#service">Service</a>
-        <a href="#presentation">Presentation</a>
-        <a href="#award">Award</a>
-        <a href="#patent">Patent</a>
-        <a href="#teaching">Teaching</a>
-    </div>
-</nav>
+<table cellspacing="0" class="sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr">
 
-<!--<div id="layout-content" style="margin-top:25px">
- <a href="https://github.com/hszhao" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>-->
 
-<div id="layout-content" style="margin-top:25px">
-<table>
-    <tbody>
-        <tr>
-            <td width="670">
-                <div id="toptitle">
-                <!--<h1>Hengshuang Zhao &nbsp; <img src="pics/name_chs.png" height="40px" style="margin-bottom:-10px"></h1>-->
-                <h1>Hengshuang Zhao</h1>
-        </div>
-        <p>
-          Assistant Professor</br>
-          Department of Computer Science</br>
-          The University of Hong Kong</br>
-          Researcher, CSAIL, MIT</br>
-          Email: hszhao[at]cs.hku.hk</br>
-          or hszhao[at]csail.mit.edu
-          <!--Assistant Professor at HKU CS</br>
-          Email: hszhao[at]cs.hku.hk</br>
-          Researcher at MIT CSAIL</br>
-          Email: hszhao[at]csail.mit.edu</br>
-          Computer Science & Artificial Intelligence Lab</br>
-          Massachusetts Institute of Technology</br>
-          Assistant Professor at HKU CS</br>
-          <h3>Postdoctoral Researcher</h3>
-          Postdoc Researcher at MIT CSAIL</br>
-          Assistant Professor at HKU CS</br>
-          32 Vassar Street, Cambridge</br>
-          Email: <a href="mailto:hengshuangzhao@gmail.com">hengshuangzhao [at] gmail.com</a>
-          Email: <a href="mailto:hszhao@cse.cuhk.edu.hk">hszhao [at] cse.cuhk.edu.hk</a>
-          Email: hszhao[at]csail.mit.edu</br>
-          or hengshuangzhao[at]gmail.com-->
-        </p>
-        <p>
-          <a href="http://github.com/hszhao"><img src="pics/github.png" height="30px"></a>
-          <a href="http://scholar.google.com/citations?user=4uE10I0AAAAJ&hl=en"><img src="pics/google_scholar.png" height="30px"></a>
-          <a href="http://hk.linkedin.com/in/hengshuang-zhao-347b8391"><img src="pics/linkedin.png" height="30px"></a>
-          <a href="http://www.facebook.com/hengshuang.zhao"><img src="pics/facebook.png" height="30px"></a>
-          <a href="http://www.youtube.com/channel/UCv56S_tnXQvonXsbfSLyRZw"><img src="pics/youtube.png" height="30px"></a>
-        </p>
-      </td>
-      <!--<td><img src="pics/hszhao.jpg" border="0" width="250"></br></td>-->
-      <!--<td><img src="pics/hszhao.png" border="0" height="250"></br></td>-->
-      <!--<td><img src="pics/hengshuangzhao.png" border="0" height="250"></br></td>-->
-      <td><img src="pics/hengshuangzhao.jpg" border="0" height="250"></br></td>
-    <tr>
-  </tbody>
-</table>
+<div>
+<p style="text-align:left;color:rgb(68,68,68)"><b style="text-align:justify;line-height:1.5;background-color:transparent">Senior Researcher,</b></br>
+<style="line-height:1.5;background-color:transparent">Microsoft Research, </span></br>
+<style="text-align:justify;line-height:1.5;background-color:transparent">Redmond, WA</br></br>
+<style="text-align:justify;line-height:1.5;background-color:transparent">Email: firstname.lastname(at)microsoft.com <br><br>
 
-<!--<h2>Biography [<a href="./hengshuangzhao.pdf">CV</a>]</h2>-->
-<h2>Biography</h2>
-<p>
-  <div style="text-align:justify">I am building a research group at the <a href="https://www.cs.hku.hk">Department of Computer Science</a> at <a href="https://www.hku.hk">The University of Hong Kong</a> as an Assistant Professor. I am looking for self-motivated PhD/Postdoc/RA to join my group in Fall 2022, working together on exciting and cutting-edge computer vision, machine learning and artificial intelligence projects. Also, I am currently a postdoc researcher at <a href="https://www.csail.mit.edu"> Computer Science and Artificial Intelligence Laboratory (CSAIL) </a> at <a href="https://www.mit.edu">MIT</a>, working with <a href="http://mit.edu/torralba">Prof. Antonio Torralba</a>. </div>
-</p>
+<style="text-align:justify;line-height:1.5;background-color:transparent"> <a href="http://scholar.google.com/citations?user=E_UlAVQAAAAJ&hl=en">Google Scholar </a>, &nbsp <a href="http://dblp.uni-trier.de/pers/hd/v/Vineet:Vibhav"> DBLP </a>, &nbsp <a href="https://www.facebook.com/?_rdr=p"> fb </a>
 
-<p>
-  <div style="text-align:justify">Previously, I have spent wonderful times as a postdoctoral researcher at <a href="https://torrvision.com">Torr Vision Group</a> in the Department of Engineering Science at the <a href="http://www.ox.ac.uk">University of Oxford</a> (beautiful Oxford), working with <a href="http://www.robots.ox.ac.uk/~phst">Prof. Philip Torr</a>. I obtained my Ph.D. degree in the Department of Computer Science and Engineering at <a href="http://www.cuhk.edu.hk">The Chinese University of Hong Kong</a>, supervised by <a href="http://www.cse.cuhk.edu.hk/~leojia">Prof. Jiaya Jia</a>. During Ph.D., I have spent wonderful times as an intern with <a href="http://xiaohuishen.github.io">Dr. Xiaohui Shen</a>, <a href="http://sites.google.com/site/zhelin625">Dr. Zhe Lin</a>, <a href="http://www.kalyans.org">Dr. Kalyan Sunkavalli</a>, <a href="http://www.brianpricephd.com">Dr. Brian Price</a> at Adobe (San Jose), <a href="http://www.cs.toronto.edu/~urtasun">Prof. Raquel Urtasun</a> at Uber (Toronto), and <a href="http://vladlen.info">Dr. Vladlen Koltun</a> at Intel (Santa Clara).</div>
-</p>
+ 
+<tbody><tr><td class="sites-layout-tile sites-tile-name-content-1">
+<div><heading><font face="arial" size="4"><b>Research</b></font> </br>
 
-<p>
-  <div style="text-align:justify">My general research interests cover the broad area of computer vision, machine learning and artificial intelligence, with special emphasis on building intelligent visual systems. My research goal is to utilize artificial intelligence techniques to make machines perceive, understand and interact with the surrounding environment, and ultimately make high positive impacts on various fields.</div>
-</p>
+<div><span style="line-height:1.5;background-color:transparent"><font size="3">
+<br/>
 
-<p>
-  <div style="text-align:justify">Several specific topics of our current research interests and focus: 1. image/video recognition like classification, segmentation, and detection; 2. 3d point cloud processing, scene reconstruction, and manipulation; 3. representation learning, unsupervised learning, weakly-/semi-supervised learning; 4. open-world learning, transfer learning, unified systems, advanced architecture design; 5. autonomous driving, multi-modal learning, vision+language, pretraining; 6. embodied ai, social navigation, interactive navigation, robot learning, etc.</div>
-</p>
+My current research interests are in computer vision, machine learning, robotics. 
+More specifically I am interested in developing algorithms to solve generalization issues in computer vision and machine learning such that these models can be deployed in the real world environments. I also work on using synthetic data and neural renderer to solve computer vision and robotics problems.
 
-<p>
-<div style="text-align:justify"><font color="red">Multiple openings for self-motivated PhD, Postdoc, RA and Interns! The current round for <a href="https://www.cs.hku.hk/programmes/research-based/admission-2023">PhD application</a> is the <a href="https://i.cs.hku.hk/~gradappl/index.html">Early Recruitment Scheme</a>, which ends on <b>May 1st, 2022</b>. The deadline for the <a href="https://www.cs.hku.hk/rintern">Research Internship Programme</a> is <b>May 31st, 2022</b>. If you are interested in working with me, please drop me an email with your resume ASAP. Remote collaboration is also welcome!</font></div>
-</p>
+<br> <br>
 
-<!--
-<p>
-  <div style="text-align:justify">I am currently a postdoctoral researcher at <a href="https://www.csail.mit.edu"> Computer Science and Artificial Intelligence Laboratory (CSAIL) </a> at <a href="https://www.mit.edu">MIT</a>, working with <a href="http://mit.edu/torralba">Prof. Antonio Torralba</a>. Before that, I have spent wonderful times as a postdoctoral researcher at <a href="https://torrvision.com">Torr Vision Group</a> in the <a href="http://eng.ox.ac.uk">Department of Engineering Science </a> at the <a href="http://www.ox.ac.uk">University of Oxford</a> (beautiful Oxford), working with <a href="http://www.robots.ox.ac.uk/~phst">Prof. Philip Torr</a>. I obtained my Ph.D. degree in the <a href="http://www.cse.cuhk.edu.hk">Department of Computer Science and Engineering</a> at <a href="http://www.cuhk.edu.hk">The Chinese University of Hong Kong</a>, supervised by <a href="http://www.cse.cuhk.edu.hk/~leojia">Prof. Jiaya Jia</a>. During Ph.D., I have spent wonderful times as an intern with <a href="http://xiaohuishen.github.io">Dr. Xiaohui Shen</a>, <a href="http://sites.google.com/site/zhelin625">Dr. Zhe Lin</a>, <a href="http://www.kalyans.org">Dr. Kalyan Sunkavalli</a>, <a href="http://www.brianpricephd.com">Dr. Brian Price</a> at Adobe (San Jose), <a href="http://www.cs.toronto.edu/~urtasun">Prof. Raquel Urtasun</a> at Uber (Toronto), and <a href="http://vladlen.info">Dr. Vladlen Koltun</a> at Intel (Santa Clara).</div>
-</p>
--->
-<!--<p>My general research interests cover the broad area of computer vision, machine learning, and artificial intelligence, with special emphasis on high-level scene recognition and pixel-level scene understanding. I aim at designing powerful image understanding and point cloud processing frameworks, as well as exploring fancy and interesting raw operators.</p>
-<a href="http://shijianping.me">Dr. Jianping Shi</a>, <a href="http://www.ee.cuhk.edu.hk/~xgwang">Prof. Xiaogang Wang</a> at SenseTime (Beijing), 
--->
-<!--<p>My general research interests cover the broad area of computer vision, machine learning and artificial intelligence, with a focus on building intelligent visual systems. My research goal is to develop theoretical and practical methods in intelligent visual systems that can ultimately make high positive impacts on various fields. More specifically, I focus on designing elegant and effective neural learning systems, including while not limited to delicate image representation architectures, exquisite point cloud processing frameworks, reliable, generalizable and cutting-edge visual algorithms.</p>-->
-<!--<p>If you are interested in my research or would like to work with me, feel free to send me an email.</p>-->
+<em> <strong>If you are interested in research collaborations or doing research internship at MSR Redmond, please contact me. </strong> </em>
 
-<!--<p><div style="text-align:justify"><font color="red">Update: I will be joining the <a href="https://www.cs.hku.hk">Department of Computer Science</a> at <a href="https://www.hku.hk">The University of Hong Kong</a> as an Assistant Professor. I am looking for self-motivated PhD/Postdoc/RA to work together on computer vision, machine learning and artificial intelligence. In the meantime, our group at the University of Oxford is also looking for self-motivated interns and visitors to work on research projects related to 2D/3D scene recognition and reconstruction. If you are interested in joining my group at HKU or Oxford, please do not hesitate to drop me an email with your resume. Remote collaboration is also welcome. More details about the <a href="./advertisement.pdf"><b>Position</b></a>.</div></font></p>
+<!--More specifically I am interested in understanding generalization issues in computer vision and machine learning. So I develop new algorithms to solve the such that they can be deployed in the real world environments. I am also interested in understanding ways to build models using synthetic data.-->
 
-<p><font color="black", style="margin-left:3.8em">Bottom up 3D instance segmentation <a href="http://github.com/Jia-Research-Lab/PointGroup">PointGroup</a>.</font></p>
-<p><font color="black", style="margin-left:3.8em">Backbone structure for 3D scene recognition <a href="https://arxiv.org/abs/2012.09164">Point Transformer</a>.</font></p>
+<!--I am interested in building intelligent machines that can perceive any
+environment, and accomplish tasks that directly help people get greated independence
+in their lives.-->
 
-<p><div style="text-align:justify"><font color="red">Update: I will be joining the <a href="https://www.cs.hku.hk">Department of Computer Science</a> at <a href="https://www.hku.hk">The University of Hong Kong</a> as an Assistant Professor. I am looking for self-motivated Ph.D./RA/Interns to work together on computer vision and machine learning. Besides, several Postdoc positions with highly competitive salaries are waiting for talented candidates. In the meantime, our group at the University of Oxford is also looking for self-motivated interns and visitors to work on research projects related to 2D/3D scene recognition and reconstruction. If you are interested in joining my group at HKU or Oxford, please do not hesitate to drop me an email with your resume. Remote collaboration is also welcome.</div></font></p>
+</div></div></td></tr></tbody></table> 
 
-<p>
-  <div style="text-align:justify">I am also building a research group at the <a href="https://www.cs.hku.hk">Department of Computer Science</a> at <a href="https://www.hku.hk">The University of Hong Kong</a> as an Assistant Professor. I am looking for self-motivated PhD/Postdoc/RA to join my group in Fall 2022, working together on exciting and cutting-edge computer vision, machine learning and artificial intelligence projects.</div>
-</p>
--->
+</div>
+<span style="color:rgb(68,68,68)"> </span></div></td>
+<td class="sites-layout-tile sites-tile-name-content-2"><div align="center"><img border="2" src="vibhav.png"/></div>
+<br/> </td> </tr> </tbody> </table>
 
-<p><font color="black">Pinned: Highly optimized PyTorch codebases available for semantic segmentation <a href="http://github.com/hszhao/semseg">semseg (PSPNet&PSANet)</a>.</font></p>
-<p><font color="black", style="margin-left:3.8em">Unified raw operator for 2D image recognition <a href="http://github.com/hszhao/SAN">SAN</a> and 3D point cloud recognition <a href="https://arxiv.org/abs/2012.09164">PointTransformer</a>.</font></p>
-<p><font color="black", style="margin-left:3.8em">Unified panoptic segmentation <a href="http://github.com/uber-research/UPSNet">UPSNet</a> (logit level), and <a href="https://github.com/dvlab-research/PanopticFCN">PanopticFCN</a> (representation level).</font></p>
-<p><font color="black", style="margin-left:3.8em">Unified modeling for joint 2D-3D scene recognition <a href="https://github.com/wbhu/BPNet">BPNet</a>.</font></p>
-<p><font color="black", style="margin-left:3.8em">Unified tracking framework <a href="https://zhongdao.github.io/UniTrack">UniTrack</a>.</font></p>
-<!--
-<p><font color="black", style="margin-left:3.8em">Powerful few-shot semantic segmentation <a href="http://github.com/Jia-Research-Lab/PFENet">PFENet</a>, and robust semantic segmentation <a href="https://github.com/dvlab-research/Robust-Semantic-Segmentation">DDCAT</a>.</font></p>
-<p><font color="black", style="margin-left:3.8em">Bottom up 3D instance segmentation <a href="http://github.com/Jia-Research-Lab/PointGroup">PointGroup</a>.</font></p>
--->
 
-<div id="publication">
-<h2>Publications [<a href="http://scholar.google.com/citations?user=4uE10I0AAAAJ&hl=en">Google Scholar</a>]</h2>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox">
+<tbody><tr><td class="sites-layout-tile sites-tile-name-content-1">
+<div dir="ltr"><heading><font face="arial" size="4"><b>News</b></font> </br>
+
+<div><span style="line-height:1.6;background-color:transparent"><font size="3">
 <ul>
-  <!--*: equal contribution, †: corresponding authorship.-->
-  <li>
-    <a href="">FocalClick: Towards Practical Interactive Image Segmentation</a><br>
-    Xi Chen, Zhiyan Zhao, Yilei Zhang, Manni Duan, Donglian Qi, <b>Hengshuang Zhao</b>.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2022.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2204.02574">Paper</a>]
-      [<a href="https://github.com/XavierCHEN34/ClickSEG">Code</a>]
-      [<a href="papers/cvpr22_focalclick_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2112.02244">LAVT: Language-Aware Vision Transformer for Referring Image Segmentation</a><br>
-    Zhao Yang, Jiaqi Wang, Yansong Tang, Kai Chen, <b>Hengshuang Zhao</b>, Philip Torr.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2022.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2112.02244">Paper</a>]
-      [<a href="https://github.com/yz93/LAVT-RIS">Code</a>]
-      [<a href="papers/cvpr22_lavt_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2010.05210">Generalized Few-shot Semantic Segmentation</a><br>
-    Zhuotao Tian, Xin Lai, Li Jiang, Michelle Shu, <b>Hengshuang Zhao</b>, Jiaya Jia.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2022.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2010.05210">Paper</a>]
-      [<a href="https://github.com/dvlab-research/GFS-Seg">Code</a>]
-      [<a href="papers/cvpr22_gfsseg_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2111.12082">PhysFormer: Facial Video-based Physiological Measurement with Temporal Difference Transformer</a><br>
-    Zitong Yu, Yuming Shen, Jingang Shi, <b>Hengshuang Zhao</b>, Philip Torr, Guoying Zhao.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2022.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2111.12082">Paper</a>]
-      [<a href="https://github.com/ZitongYu/PhysFormer">Code</a>]
-      [<a href="papers/cvpr22_physformer_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2203.14508">Stratified Transformer for 3D Point Cloud Segmentation</a><br>
-    Xin Lai, Jianhui Liu, Li Jiang, Liwei Wang, <b>Hengshuang Zhao</b>, Shu Liu, Xiaojuan Qi, Jiaya Jia.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2022.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2203.14508">Paper</a>]
-      [<a href="https://github.com/dvlab-research/Stratified-Transformer">Code</a>]
-      [<a href="papers/cvpr22_stratified_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://ieeexplore.ieee.org/document/9736597">Adaptive Perspective Distillation for Semantic Segmentation</a><br>
-    Zhuotao Tian, Pengguang Chen, Xin Lai, Li Jiang, Shu Liu, <b>Hengshuang Zhao</b>, Bei Yu, Ming-Chang Yang, Jiaya Jia.<br>
-    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em> (<b>TPAMI</b>), 2022. </br>
-    <p style="margin-top:3px">
-      [<a href="http://ieeexplore.ieee.org/document/9736597">Paper</a>]
-      [Code]
-      [<a href="papers/tpami22_apd_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="">Prototype-Voxel Contrastive Learning for LiDAR Point Cloud Panoptic Segmentation</a><br>
-    Minzhe Liu, Zhou Qiang, <b>Hengshuang Zhao</b>, Jianing Li, Yuan Du, Kurt Keutzer, Li Du, Shanghang Zhang.<br>
-    <em>International Conference on Robotics and Automation</em> (<b>ICRA</b>), 2022.</br>
-    <p style="margin-top:3px">
-      [Paper]
-      [Code]
-      [Bib]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2107.02156">Do Different Tracking Tasks Require Different Appearance Models?</a><br>
-    Zhongdao Wang, <b>Hengshuang Zhao</b>, Yali Li, Shengjin Wang, Philip Torr, Luca Bertinetto.<br>
-    <em>Neural Information Processing Systems</em> (<b>NeurIPS</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://zhongdao.github.io/UniTrack">Project</a>]
-      [<a href="https://arxiv.org/abs/2107.02156">Paper</a>]
-      [<a href="https://github.com/Zhongdao/UniTrack">Code</a>]
-      [<a href="papers/neurips21_unitrack_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://www.bmvc2021-virtualconference.com/conference/papers/paper_0386.html">Hierarchical Interaction Network for Video Object Segmentation from Referring Expressions</a><br>
-    Zhao Yang*, Yansong Tang*, Luca Bertinetto, <b>Hengshuang Zhao</b>, Philip Torr. (*: equal contribution)<br>
-    <em>British Machine Vision Conference</em> (<b>BMVC</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://www.bmvc2021-virtualconference.com/conference/papers/paper_0386.html">Paper</a>]
-      [Code]
-      [<a href="papers/iccv21_pointtransformer_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2012.09164">Point Transformer</a><br>
-    <b>Hengshuang Zhao</b>, Li Jiang, Jiaya Jia, Philip Torr, Vladlen Koltun.<br>
-    <em>International Conference on Computer Vision</em> (<b>ICCV</b>), 2021. <b>[Oral]</b></br>
-    <p style="margin-top:3px">
-      [<a href="http://arxiv.org/abs/2012.09164">Paper</a>]
-      [Code]
-      [<a href="papers/iccv21_pointtransformer_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/2003.06555">Dynamic Divide-and-Conquer Adversarial Training for Robust Semantic Segmentation</a><br>
-    Xiaogang Xu, <b>Hengshuang Zhao</b>, Jiaya Jia.<br>
-    <em>International Conference on Computer Vision</em> (<b>ICCV</b>), 2021. </br>
-    <p style="margin-top:3px">
-      [<a href="http://arxiv.org/abs/2003.06555">Paper</a>]
-      [<a href="https://github.com/dvlab-research/Robust-Semantic-Segmentation">Code</a>]
-      [<a href="papers/iccv21_ddcat_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2103.14326">Bidirectional Projection Network for Cross Dimension Scene Understanding</a><br>
-    Wenbo Hu*, <b>Hengshuang Zhao*</b>, Li Jiang, Jiaya Jia, Tien-Tsin Wong. (*: equal contribution)<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2021. <b>[Oral]</b></br>
-    <p style="margin-top:3px">
-      [<a href="https://wbhu.github.io/projects/BPNet">Project</a>]
-      [<a href="https://arxiv.org/abs/2103.14326">Paper</a>]
-      [<a href="https://github.com/wbhu/BPNet">Code</a>]
-      [<a href="papers/cvpr21_bpnet_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/2012.00720">Fully Convolutional Networks for Panoptic Segmentation</a><br>
-    Yanwei Li, <b>Hengshuang Zhao</b>, Xiaojuan Qi, Liwei Wang, Zeming Li, Jian Sun, Jiaya Jia.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2021. <b>[Oral]</b></br>
-    <p style="margin-top:3px">
-      [<a href="http://arxiv.org/abs/2012.00720">Paper</a>]
-      [<a href="http://github.com/yanwei-li/PanopticFCN">Code</a>]
-      [<a href="papers/cvpr21_panopticfcn_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://jiaya.me/papers/kdreview_cvpr21.pdf">Distilling Knowledge via Knowledge Review</a><br>
-    Pengguang Chen, Shu Liu, <b>Hengshuang Zhao</b>, Jiaya Jia.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://jiaya.me/papers/kdreview_cvpr21.pdf">Paper</a>]
-      [<a href="https://github.com/dvlab-research/ReviewKD">Code</a>]
-      [<a href="papers/cvpr21_kd_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2103.14635">PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds</a><br>
-    Mutian Xu*, Runyu Ding*, <b>Hengshuang Zhao</b>, Xiaojuan Qi. (*: equal contribution)<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2103.14635">Paper</a>]
-      [<a href="https://github.com/CVMI-Lab/PAConv">Code</a>]
-      [<a href="papers/cvpr21_paconv_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2012.15840">Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers</a><br>
-    Sixiao Zheng, Jiachen Lu, <b>Hengshuang Zhao</b>, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao Xiang, Philip Torr, Li Zhang.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://fudan-zvg.github.io/SETR">Project</a>]
-      [<a href="https://arxiv.org/abs/2012.15840">Paper</a>]
-      [<a href="https://github.com/fudan-zvg/SETR">Code</a>]
-      [<a href="papers/cvpr21_setr_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://jiaya.me/papers/semiseg_cvpr21.pdf">Semi-supervised Semantic Segmentation with Directional Context-aware Consistency</a><br>
-    Xin Lai*, Zhuotao Tian*, Li Jiang, Shu Liu, <b>Hengshuang Zhao</b>, Liwei Wang, Jiaya Jia. (*: equal contribution)<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://jiaya.me/papers/semiseg_cvpr21.pdf">Paper</a>]
-      [<a href="https://github.com/Jia-Research-Lab/Context-Aware-Consistency">Code</a>]
-      [<a href="papers/cvpr21_cac_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="https://arxiv.org/abs/2105.01290">Dual-Cross Central Difference Network for Face Anti-Spoofing</a><br>
-    Zitong Yu, Yunxiao Qin, <b>Hengshuang Zhao</b>, Xiaobai Li, Guoying Zhao.<br>
-    <em>International Joint Conference on Artificial Intelligence</em> (<b>IJCAI</b>), 2021.</br>
-    <p style="margin-top:3px">
-      [<a href="https://arxiv.org/abs/2105.01290">Paper</a>]
-      [Code]
-    </p>
-  </li>
-  <li>
-    <a href="papers/cvpr20_san.pdf">Exploring Self-attention for Image Recognition</a><br>
-    <b>Hengshuang Zhao</b>, Jiaya Jia, Vladlen Koltun.<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2020.</br>
-    <p style="margin-top:3px">
-      [<a href="papers/cvpr20_san.pdf">Paper</a>]
-      [<a href="http://github.com/hszhao/SAN">Code</a>]
-      [<a href="papers/cvpr20_san_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/2004.01658">PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation</a><br>
-    Li Jiang*, <b>Hengshuang Zhao*</b>, Shaoshuai Shi, Shu Liu, Chi-Wing Fu, Jiaya Jia. (*: equal contribution)<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2020. <b>[Oral]</b></br>
-    <p style="margin-top:3px">
-      [<a href="http://arxiv.org/abs/2004.01658">Paper</a>]
-      [<a href="http://github.com/Jia-Research-Lab/PointGroup">Code</a>]
-      [<a href="papers/cvpr20_pointgroup_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://ieeexplore.ieee.org/document/9154595">Prior Guided Feature Enrichment Network for Few-Shot Segmentation</a><br>
-    Zhuotao Tian, <b>Hengshuang Zhao<sup>†</sup></b>, Michelle Shu, Zhicheng Yang, Ruiyu Li, Jiaya Jia. (†: corresponding authorship)<br>
-    <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em> (<b>TPAMI</b>), 2020. </br>
-    <p style="margin-top:3px">
-      [<a href="http://ieeexplore.ieee.org/document/9154595">Paper</a>]
-      [<a href="https://github.com/dvlab-research/PFENet">Code</a>]
-      [<a href="papers/tpami20_pfenet_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/2001.04086">GridMask Data Augmentation</a><br>
-    Pengguang Chen, Shu Liu, <b>Hengshuang Zhao</b>, Jiaya Jia.<br>
-    <em>Technical report</em>, arXiv, 2020.</br>
-    <p style="margin-top:3px">
-      [<a href="http://arxiv.org/abs/2001.04086">Paper</a>]
-      [<a href="https://github.com/dvlab-research/GridMask">Code</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/1906.11443">Region Refinement Network for Salient Object Detection</a><br>
-    Zhuotao Tian, <b>Hengshuang Zhao</b>, Michelle Shu, Jiaze Wang, Ruiyu Li, Xiaoyong Shen, Jiaya Jia.<br>
-    <em>Technical report</em>, arXiv, 2019.</br>
-  </li>
-  <li>
-    <a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Hierarchical_Point-Edge_Interaction_Network_for_Point_Cloud_Semantic_Segmentation_ICCV_2019_paper.pdf">Hierarchical Point-Edge Interaction Network for Point Cloud Semantic Segmentation</a><br>
-    Li Jiang, <b>Hengshuang Zhao</b>, Shu Liu, Xiaoyong Shen, Chi-Wing Fu, Jiaya Jia.<br>
-    <em>International Conference on Computer Vision</em> (<b>ICCV</b>), 2019. </br>
-    <p style="margin-top:3px">
-      [<a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Jiang_Hierarchical_Point-Edge_Interaction_Network_for_Point_Cloud_Semantic_Segmentation_ICCV_2019_paper.pdf">Paper</a>]
-      [<a href="papers/iccv19_pointedge_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="papers/cvpr19_pointweb.pdf">PointWeb: Enhancing Local Neighborhood Features for Point Cloud Processing</a><br>
-    <b>Hengshuang Zhao*</b>, Li Jiang*, Chi-Wing Fu, and Jiaya Jia. (*: equal contribution)<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2019.</br>
-    <p style="margin-top:3px">
-      [<a href="papers/cvpr19_pointweb.pdf">Paper</a>]
-      [<a href="http://github.com/hszhao/PointWeb">Code</a>]
-      [<a href="http://youtu.be/CaobqpsUP_4">Video</a>]
-      [<a href="papers/cvpr19_pointweb_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/1901.03784">UPSNet: A Unified Panoptic Segmentation Network</a><br>
-    Yuwen Xiong*, Renjie Liao*, <b>Hengshuang Zhao*</b>, Rui Hu, Min Bai, Ersin Yumer, Raquel Urtasun. (*: equal contribution)<br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2019. <b>[Oral]</b></br>
-    <p style="margin-top:3px">
-      [<a href="http://arxiv.org/abs/1901.03784">Paper</a>]
-      [<a href="http://github.com/uber-research/UPSNet">Code</a>]
-      <!--[<a href="">Video Soon</a>]-->
-      [<a href="papers/cvpr19_upsnet_bib.txt">Bib</a>]
-    </p>
-  </li>
-    <li>
-    <a href="papers/eccv18_psanet.pdf">PSANet: Point-wise Spatial Attention Network for Scene Parsing</a><br>
-    <b>Hengshuang Zhao*</b>, Yi Zhang*, Shu Liu, Jianping Shi, Chen Change Loy, Dahua Lin, Jiaya Jia. (*: equal contribution)<br>
-    <em>European Conference on Computer Vision</em> (<b>ECCV</b>), 2018.</br>
-    <font color="red">Ranked 1st place in WAD Drivable Area Segmentation Challenge 2018.</font><br>
-    <p style="margin-top:3px">
-      [<a href="projects/psanet">Project</a>]
-      [<a href="papers/eccv18_psanet.pdf">Paper</a>]
-      [<a href="http://github.com/hszhao/PSANet">Caffe</a>]
-      [<a href="http://github.com/hszhao/semseg">PyTorch</a>]
-      [<a href="http://youtu.be/l5xu1DI6pDk">Video</a>]
-      [<a href="papers/eccv18_psanet_supp.pdf">Supp</a>]
-      [<a href="papers/eccv18_psanet_bib.txt">Bib</a>]
-      [<a href="http://docs.google.com/presentation/d/1_brKNBtv8nVu_jOwFRGwVkEPAq8B8hEngBSQuZCWaZA/edit?usp=sharing">Slides in WAD2018@CVPR2018</a>]
-    </p>
-  </li>
-  <li>
-    <a href="papers/eccv18_cais.pdf">Compositing-aware Image Search</a><br>
-    <b>Hengshuang Zhao</b>, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Brian Price, Jiaya Jia.<br>
-    <em>European Conference on Computer Vision</em> (<b>ECCV</b>), 2018.</br>
-    <p style="margin-top:3px">
-      [<a href="projects/cais">Project</a>]
-      [<a href="papers/eccv18_cais.pdf">Paper</a>]
-      [<a href="papers/eccv18_cais_supp.pdf">Supp</a>]
-      [<a href="papers/eccv18_cais_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="papers/eccv18_segstereo.pdf">SegStereo: Exploiting Semantic Information for Disparity Estimation</a><br>
-    Guorun Yang*, <b>Hengshuang Zhao*</b>, Jianping Shi, Zhidong Deng, Jiaya Jia. (*: equal contribution)<br>
-    <em>European Conference on Computer Vision</em> (<b>ECCV</b>), 2018.</br>
-    <p style="margin-top:3px">
-      [<a href="projects/segstereo">Project</a>]
-      [<a href="papers/eccv18_segstereo.pdf">Paper</a>]
-      [<a href="http://github.com/yangguorun/SegStereo">Code</a>]
-      [<a href="http://youtu.be/bfrlFpJQHT8">Video</a>]
-      [<a href="papers/eccv18_segstereo_supp.pdf">Supp</a>]
-      [<a href="papers/eccv18_segstereo_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="papers/eccv18_icnet.pdf">ICNet for Real-Time Semantic Segmentation on High-Resolution Images</a><br>
-    <b>Hengshuang Zhao</b>, Xiaojuan Qi, Xiaoyong Shen, Jianping Shi, Jiaya Jia.<br>
-    <em>European Conference on Computer Vision</em> (<b>ECCV</b>), 2018.</br>
-    <p style="margin-top:3px">
-      [<a href="projects/icnet">Project</a>]
-      [<a href="papers/eccv18_icnet.pdf">Paper</a>]
-      [<a href="http://github.com/hszhao/ICNet">Code</a>]
-      [<a href="http://youtu.be/qWl9idsCuLQ">Video</a>]
-      [<a href="papers/eccv18_icnet_supp.pdf">Supp</a>]
-      [<a href="papers/eccv18_icnet_bib.txt">Bib</a>]
-    </p>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/1612.01105">Pyramid Scene Parsing Network</a><br>
-    <b>Hengshuang Zhao</b>, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, Jiaya Jia.</br>
-    <em>Computer Vision and Pattern Recognition</em> (<b>CVPR</b>), 2017.</br>
-    <font color="red">Ranked 1st place in ImageNet Scene Parsing Challenge 2016, 4000+ citations.</font><br>
-    <font color="red">Ranked 1st place in LSUN Semantic Segmentation Challenge 2017.</font><br>
-    <p style="margin-top:3px">
-      [<a href="projects/pspnet">Project</a>]
-      [<a href="http://arxiv.org/abs/1612.01105">Paper</a>]
-      [<a href="http://github.com/hszhao/PSPNet">Caffe</a>]
-      [<a href="http://github.com/hszhao/semseg">PyTorch</a>]
-      [<a href="http://youtu.be/rB1BmBOkKTw">Video</a>]
-      [<a href="papers/cvpr17_pspnet_bib.txt">Bib</a>]
-      [<a href="http://image-net.org/challenges/talks/2016/SenseCUSceneParsing.pdf">Slides in ILSVRC2016@ECCV2016</a>]
-    </p>
-  </li>
-  <li>
-    <a href="papers/eccv16_weakseg.pdf">Augmented Feedback in Semantic Segmentation under Image Level Supervision</a><br>
-    Xiaojuan Qi, Zhengzhe Liu, Jianping Shi, <b>Hengshuang Zhao</b>, Jiaya Jia.</br>
-    <em>European Conference on Computer Vision</em> (<b>ECCV</b>), 2016.</br>
-  </li>
-  <li>
-    <a href="http://arxiv.org/abs/1704.08812">Automatic Real-time Background Cut for Portrait Videos</a></br>
-    Xiaoyong Shen, Ruixing Wang, <b>Hengshuang Zhao</b>, Jiaya Jia.</br>
-    <em>Technical report</em>, arXiv, 2017.</br>
-  </li>
-  <li>
-    <a href="papers/ao2016_gpusteger.pdf">Rapid and automatic 3D body measurement system based on a GPU-steger line detector</a></br>
-    Xingjian Liu, <b>Hengshuang Zhao</b>, Guomin Zhan, Kai Zhong, Zhongwei Li, YuhJin Chao, Yusheng Shi.</br>
-    <em>Applied Optics</em>, 2016.</br>
-  </li>
-  <li>
-    <a href="http://spie.org/Publications/Proceedings/Paper/10.1117/12.2071706">A high-reflective surface measurement method based on conoscopic holography technology</a></br>
-    Xu Cheng, ZhongWei Li, YuSheng Shi, <b>HengShuang Zhao</b>, Guomin Zhan.</br>
-    <em>Optical Metrology and Inspection for Industrial Applications III</em>, 2014.</br>
-  </li>
+<li> March, 2022. Two papers accepted to CVPR 2022. </a>
+<li> February, 2022. Paper accepted to ACL 2022. </a>
+<li> January, 2022. We are organizing workshop on <a href="https://rosecvpr22.github.io/">"ROSE: Robustness in Sequential Data" </a> in CVPR 2022. More details to follow. </a>
+<li> January, 2022. Paper accepted to ICLR 2022. </a>
+<li> October, 2021. Papers on CausalCity, Taskography, 3DB have been updated. </a>
+<li> 4th February, 2021. One paper accepted at ICASSP 2021. </a>
+<li> 2nd October, 2020. Neural Prunning paper received the Best Student Paper Award at 3DV 2020. </a>. 
+<li> 2nd October, 2020. Two papers accepted to 3DV 2020. </a>. 
+<li> 10th September, 2020. IROS 2020 paper has been selected as one of the finalist in the Best Student Paper Award list, <a href="https://www.iros2020.org/">IEEE International Conference on Intelligent Robots and Automation (IROS) 2020 </a>. 
+<li> 2nd July 2020. One paper on synthetic data generation accepted to <a href="https://eccv2020.eu/"> ECCV 2020.</a> 
+<li> 30th June 2020. Our paper on drone navigation accepted to <a href="https://www.iros2020.org/"> IROS 2020.</a> 
+<li> March. 2020. <a href="https://www.microsoft.com/en-us/research/blog/training-deep-control-policies-for-the-real-world/"> Blog </a> and <a href="https://venturebeat.com/2020/03/18/microsoft-researchers-train-ai-in-simulation-to-control-a-real-world-drone/"> media articles </a> on our paper on drone navigation.  </a> 
+<li> Feb. 2020. One paper on CNN based acoustic simulation has been accepted in <a href="https://2020.ieeeicassp.org/">ICASSP 2020. </a> 
+<li> September 2019: Paper on drone navigation has been uploaded on arXiv. </a> 
+<li> March 2019: Paper on large scale dynamic reconstruction uploaded on arXiv. </a> 
+<li> February 2019: Papers on photorealistic rendering and privacy preserving computer vision uploaded to arXiv. </a> 
+<li> 13th August  2018: Joined Microsoft Research in Redmond. </a> 
+<li> 6th February  2017: Started working at FiveAI. </a> 
+<li> 12th September 2016: <font color="blue">Media coverage </font> of playing games for data: <a href="https://www.technologyreview.com/s/602317/self-driving-cars-can-learn-a-lot-by-playing-grand-theft-auto/"> MIT Technology Review. </a> 
+<li> 24th June 2016: Paper on generating data by playing games accepted to ECCV-16.
+<li> 16th March 2016: Two papers accepted to CVPR-16.
+<li> 14th September 2015: I joined <font color="blue"><a href="http://vladlen.info/lab/">Intel Visual Computing Lab</a></font>. 
+<li> 12th September 2015: My PhD thesis was awarded with the prestigious <font color="blue"><a href="http://www.bmva.org/sullivan">BMVA Sullivan Thesis Prize </a> </font> for 2015. 
+The prize is considered for award, on an annual basis, to the best doctoral thesis submitted to a UK University, in the field of computer or natural vision.
+<li> 2nd July 2015: <font color="blue">Media coverage </font> of SemanticPaint paper: <a href="http://gizmodo.com/microsofts-latest-quest-into-digital-worlds-may-one-day-1715144372"> gizmodo.com </a>, <a href="http://www.popularmechanics.com/technology/apps/a16264/microsoft-research-semanticpaint/"> popularmechanics </a>, <a href="http://www.fastcodesign.com/3048111/innovation-by-design/love-ms-paint-heres-vr-paint"> fastcodesign.com </a>, <a href="http://news.softpedia.com/news/microsoft-s-semanticpaint-will-digitize-your-life-485795.shtml"> softpedia.com </a>, <a href="http://www.winbeta.org/news/microsoft-research-debuts-another-project-semantic-paint">winbeta.org </a>, <a href="http://www.engadget.com/2015/07/01/microsoft-research-semanticpaint/"> engadget.com </a>
+<li> 30th June 2015: <a href="papers/2015/TOG/semanticpaint-TOG15.html"> <font color="blue">Semantic Paint paper </font> </a> for new interactive approach to 3D scene understanding accepted to ACM Transaction of Graphics <font color="blue">(TOG)</font>.
+<li> 29 June 2015: <font color="blue">Media coverage </font> of CRF and CNN paper: <a href="https://www.inverse.com/article/4144-play-a-fun-game-of-stump-the-next-gen-photo-recognition-program"> Play a fun game </a>, <a href="https://www.reddit.com/r/InternetIsBeautiful/comments/3bb7mh/deep_learning_image_segmentation_from_oxford/"> Reddit </a>, <a href="http://www.qore.com/noticias/38337/Desarrollan-un-sistema-de-reconocimiento-de-objetos-en-fotografias"> Desarrollan un sistema de reconocimiento de objetos en fotografÃ </a>
+<li> 29th June 2015: One paper accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems <font color="blue">(IROS)</font>.
+<li> 20th June 2015: I received <a href="http://www.theiet.org/events/2015/211062.cfm"><font color="blue">IET Vision and Imaging PhD thesis award</font></a>.
+<li> 25th May 2015: ICRA paper was one of the finalist in the <font color="blue">Best Robotic Vision Paper Award</font>, IEEE Robotics and Automatic Conference (ICRA).
+<li> May 2015: Recent work (CRF as RNN arXiv:1502.03240) setting a <font color="blue">new state-of-art in semantic image segmentation</font> on the PASCAL VOC 2010-2012 benchmarks. 2015. 
+<li> 20th April 2015: <a href="papers/2015/CHI/SemanticPaintBrush.html"><font color="blue">Semantic Paint Brush </font> </a>paper presented at ACM CHI conference.
+<li> 12th Feb 2015: One paper submitted to arxiv on combining <font color="blue">CRF and CNN</font>.
+<li> 31th Jan 2015: One paper accepted to ICRA on large scale semantic scene reconstruction.
+<li> 24th Jan 2015: Started working as a postdoctoral researchers at <font color="blue">Stanford University</font>.
+
 </ul>
-</div>
+</font>
+</span>
 
-<div id="experience">
-<h2>Experiences</h2>
-<ul>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://vladlen.info/lab">Intelligent Systems Lab, Intel</a>, Santa Clara, USA</div> <div style="float:right; text-align:right">Jan. 2019 – Aug. 2020</div><br>
-    Research Intern & Visiting Researcher<br>
-    Advisor: <a href="http://vladlen.info">Vladlen Koltun</a><br>
-    Topic: Self-attention for Image and Point Cloud Recognition<br>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://www.uber.com/info/atg">Advanced Technologies Group, Uber</a>, Toronto, Canada</div> <div style="float:right; text-align:right">Jun. 2018 – Sep. 2018</div><br>
-    Research Intern<br>
-    Advisor: <a href="http://www.cs.toronto.edu/~urtasun">Raquel Urtasun</a><br>
-    Topic: Panoptic Segmentation and Autonomous Driving<br>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://research.adobe.com/">Creative Intelligence Lab, Adobe Research</a>, San Jose, USA</div> <div style="float:right; text-align:right">May 2017 – Sep. 2017</div><br>
-    Research Intern<br>
-    Advisor: <a href="http://xiaohuishen.github.io">Xiaohui Shen</a>, <a href="http://sites.google.com/site/zhelin625">Zhe Lin</a>, <a href="http://www.kalyans.org">Kalyan Sunkavalli</a> and <a href="http://www.brianpricephd.com">Brian Price</a><br>
-    Topic: Compositing-aware Image Search<br>
-  </li>
-  <!--
-  <li>
-    <div style="float:left; text-align:left"><a href="http://www.sensetime.com">SenseTime</a>, Beijing, China</div> <div style="float:right; text-align:right">May 2016 – Sep. 2016</div><br>
-    Research Intern<br>
-    Advisor: <a href="http://shijianping.me">Jianping Shi</a>, <a href="http://www.ee.cuhk.edu.hk/~xgwang">Xiaogang Wang</a><br>
-    Topic: Semantic Segmentation and Scene Parsing<br>
-  </li>-->
-  <li>
-    <div style="float:left; text-align:left"><a href="http://english.hust.edu.cn/info/1025/1295.htm">State Key Laboratory of Material Processing and Die & Mould Technology</a>, Wuhan, China</div> <div style="float:right; text-align:right">Jan. 2014 – Jun. 2015</div><br>
-    Undergraduate Research Assistant<br>
-    Advisor: Zhongwei Li<br>
-    Topic: 3D Dynamic Measurement and Laser Measurement<br>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://www.msra.cn">Microsoft Research Asia (MSRA)</a> Summer Camp, Beijing, China</div> <div style="float:right; text-align:right">Aug. 2014</div><br>
-    Microsoft Young Fellow<br>
-    TEDx presentation: "Research on precise 3D measurement technology"<br>
-    Poster presentation: "Real-time 3D shape measurement system with full temporal resolution and spatial resolution"<br>
-  </li>
-</ul>
-</div>
+</div></div></td></tr></tbody></table>
 
-<div id="service">
-<h2>Professional Activities</h2>
-<ul>
-  <!---<li>Conference Reviewer: ICCV 2017, CVPR 2018, ECCV 2018, ACCV 2018, CVPR 2019, ICCV 2019, IV 2019, BMVC 2019, NIPS 2019.</li>--->
-  <!---<li>Conference Reviewer:<br>
-    &emsp; IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2021.<br>
-    &emsp; IEEE International Conference on Computer Vision (ICCV) 2021.<br>
-    &emsp; Neural Information Processing Systems (NeurIPS) 2021.<br>
-    &emsp; International Conference on Machine Learning (ICML) 2021.<br>
-    &emsp; International Conference on Learning Representations (ICLR) 2021.<br>
-    &emsp; AAAI Conference on Artificial Intelligence (AAAI) 2021.<br>
-    &emsp; IEEE Winter Conference on Applications of Computer Vision (WACV) 2021.<br>
-    &emsp; IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2020.<br>
-    &emsp; European Conference on Computer Vision (ECCV) 2020.<br>
-    &emsp; Neural Information Processing Systems (NeurIPS) 2020.<br>
-    &emsp; International Conference on Machine Learning (ICML) 2020.<br>
-    &emsp; International Conference on Learning Representations (ICLR) 2020.<br>
-    &emsp; AAAI Conference on Artificial Intelligence (AAAI) 2020.<br>
-    &emsp; British Machine Vision Conference (BMVC) 2020.<br>
-    &emsp; IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2019.<br>
-    &emsp; IEEE International Conference on Computer Vision (ICCV) 2019.<br>
-    &emsp; Neural Information Processing Systems (NeurIPS) 2019.<br>
-    &emsp; British Machine Vision Conference (BMVC) 2019.<br>
-    &emsp; IEEE Intelligent Vehicles Symposium (IV) 2019.<br>
-    &emsp; IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018.<br>
-    &emsp; European Conference on Computer Vision (ECCV) 2018.<br>
-    &emsp; Asian Conference on Computer Vision (ACCV) 2018.<br>
-    &emsp; IEEE International Conference on Computer Vision (ICCV) 2017.</li>
-    &emsp; IEEE Conference on Computer Vision and Pattern Recognition (CVPR'18-21).<br>
-    &emsp; IEEE International Conference on Computer Vision (ICCV'17-21).<br>
-    &emsp; European Conference on Computer Vision (ECCV'18-20).<br>
-    &emsp; Neural Information Processing Systems (NeurIPS'19-21).<br>
-    &emsp; International Conference on Machine Learning (ICML'20-21).<br>
-    &emsp; International Conference on Learning Representations (ICLR'20-21).<br>
-    &emsp; AAAI Conference on Artificial Intelligence (AAAI'20-21).<br>
-    &emsp; IEEE Winter Conference on Applications of Computer Vision (WACV'21).<br>
-    &emsp; British Machine Vision Conference (BMVC'19-20).<br>
-    &emsp; IEEE Intelligent Vehicles Symposium (IV'19).<br>
-    &emsp; Asian Conference on Computer Vision (ACCV'18).</li>--->
-  <li>Conference Reviewer:<br>
-    &emsp; IEEE Conference on Computer Vision and Pattern Recognition (CVPR).<br>
-    &emsp; IEEE International Conference on Computer Vision (ICCV).<br>
-    &emsp; European Conference on Computer Vision (ECCV).<br>
-    &emsp; Neural Information Processing Systems (NeurIPS).<br>
-    &emsp; International Conference on Machine Learning (ICML).<br>
-    &emsp; International Conference on Learning Representations (ICLR).<br>
-    &emsp; AAAI Conference on Artificial Intelligence (AAAI).<br>
-    &emsp; IEEE Winter Conference on Applications of Computer Vision (WACV).<br>
-    &emsp; British Machine Vision Conference (BMVC).<br>
-    &emsp; IEEE Intelligent Vehicles Symposium (IV).<br>
-    &emsp; Asian Conference on Computer Vision (ACCV).<br>
-  &emsp; IEEE International Conference on Robotics and Automation (ICRA).</li>
-  <li>Journal Reviewer:<br>
-    &emsp; IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).<br>
-    &emsp; International Journal of Computer Vision (IJCV).<br>
-    &emsp; IEEE Transactions on Image Processing (TIP).<br>
-    &emsp; IEEE Transactions on Robotics (T-RO).<br>
-    &emsp; IEEE Robotics and Automation Letters (RA-L).<br>
-    &emsp; IEEE Transactions on Multimedia (TMM).<br>
-    &emsp; IEEE Transactions on Neural Networks and Learning Systems (TNNLS).<br>
-    &emsp; Pattern Recognition Letters (PRLETTERS).<br>
-    &emsp; Journal of Visual Communications and Image Representation (JVCI).</li>
-</ul>
-</div>
 
-<div id="presentation">
-<h2>Talks & Presentations</h2>
-<ul>
-  <li>International Digital Economy Academy (IDEA): "Towards Unified Scene Understanding: Representation, Operator and Framework", May. 2022.</li>
-  <li>VALSE Webinar: "Scene Understanding in 3D and 2D-3D", Apr. 2022.</li>
-  <li>AI Time Young Scientist: "Towards Unified Scene Understanding: Representation, Operator and Framework", Apr. 2022.</li>
-  <li>MIT CSAIL: "Towards Unified Scene Understanding: Representation, Operator and Framework", Nov. 2021.</li>
-  <li>MIT CSAIL: "Advancing Visual Intelligence via Neural System Design", Oct. 2021.</li>
-  <li>ICCV VSP Workshop, "Towards Unified Scene Understanding: Representation, Operator and Framework", Oct. 2021.</li>
-  <li>University of Oxford, Apr. 2021.</li>
-  <li>Imperial College London, Mar. 2021.</li>
-  <li>University College London, Mar. 2021.</li>
-  <li>Max Planck Institute for Informatics, Mar. 2021.</li>
-  <li>King Abdullah University of Science and Technology, Mar. 2021.</li>
-  <li>University of Southern California, Mar. 2021.</li>
-  <li>Tsinghua University, Mar. 2021.</li>
-  <li>The Hong Kong University of Science and Technology, Guangzhou, Mar. 2021.</li>
-  <li>Microsoft Research: "Advancing Visual Intelligence via Neural System Design", Mar. 2021.</li>
-  <li>The University of Hong Kong, Feb. 2021.</li>
-  <li>The Chinese University of Hong Kong, Shenzhen, Feb. 2021.</li>
-  <li>National University of Singapore, Jan. 2021.</li>
-  <li>Nanyang Technological University, Jan. 2021.</li>
-  <li>Peking University, Dec. 2020.</li>
-  <li>Apple Research: "Pixel-Level Scene Understanding with Segmentation", Nov. 2020.</li>
-  <li>Intel Intelligent Systems Lab: "Point Transformer", Oct. 2020.</li>
-  <li>Huawei Research UK: "Exploring Self-attention for Image Recognition", Oct. 2020.</li>
-  <li>University of Oxford: "Pixel-Level Scene Understanding with Segmentation", Sep. 2020.</li>
-  <li>JIANGMEN: "Exploring Self-attention for Image Recognition", Jul. 2020.</li>
-  <li>Google Research: "Pixel-Level Scene Understanding with Segmentation", Feb. 2020.</li>
-  <li>MIT CSAIL: "Pixel-Level Scene Understanding with Segmentation", Jun. 2019.</li>
-  <li>UC Berkeley ICSI: "Pixel-Level Scene Understanding with Segmentation", Jun. 2019.</li>
-  <li>UC Berkeley BAIR: "Pixel-Level Scene Understanding with Segmentation", Jun. 2019.</li>
-  <li>VALSE Webinar: "Pixel-Level Image Understanding with Semantic Segmentation and Panoptic Segmentation", May 2019.</li>
-  <li>Intel Intelligent Systems Lab: "Self-attention Networks for Image Recognition", May 2019.</li>
-  <li>Intel Intelligent Systems Lab: "Image Segmentation with Application", Jan. 2019.</li>
-  <li>Uber ATG: "Unified Panoptic Segmentation Network (UPSNet): A Unified Framework for Image Understanding", Aug. 2018.</li>
-  <li>CVPR WAD Workshop: "IBN-PSANet: Winning WAD Drivable Area Challenge", Jun. 2018.</li>
-  <li>VALSE Webinar: "PSPNet and ICNet: Semantic Segmentation with High Accuracy and High Efficiency", Jul. 2017.</li>
-  <li>Adobe Bay Area Research Showcase: "Compositing-aware Image Search", Jul. 2017.</li>
-  <li>ECCV ILSVRC Workshop: "Understanding Scene in the Wild", Oct. 2016.</li>
-</ul>
-</div>
 
-<div id="award">
-<h2>Honors & Awards</h2>
-<ul>
-  <li>
-    <div style="float:left; text-align:left"><a href="https://originalfileserver.aminer.cn/data/ai2000_2022/certificates/5dc122672ebaa6faa962c0af/542c02afdabfae216e61f9c4.png">AI 2000 Most Influential Scholar Honorable Mention in Computer Vision</a></div> <div style="float:right; text-align:right">2022</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="https://embodied-ai.org">Champion, Embodied AI Social Navigation Challenge (Rank 1st)</a></div> <div style="float:right; text-align:right">2021</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">World Artificial Intelligence Conference (WAIC) Rising Star Award</div> <div style="float:right; text-align:right">2020</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">ICCV Outstanding Reviewer Award</div> <div style="float:right; text-align:right">2019</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">NeurIPS Top Reviewer Award</div> <div style="float:right; text-align:right">2019</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">CVPR Doctoral Consortium Travel Award</div> <div style="float:right; text-align:right">2019</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://bdd-data.berkeley.edu/wad-2018.html">Champion, WAD Drivable Area Segmentation Challenge (Rank 1st)</a></div> <div style="float:right; text-align:right">2018</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://blog.mapillary.com/product/2017/06/13/lsun-challenge.html">Champion, LSUN Semantic Segmentation Challenge (Rank 1st)</a></div> <div style="float:right; text-align:right">2017</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left"><a href="http://image-net.org/challenges/LSVRC/2016/results">Champion, ImageNet Scene Parsing Challenge (Rank 1st)</a></div> <div style="float:right; text-align:right">2016</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Full Postgraduate Studentship, CUHK</div> <div style="float:right; text-align:right">2015</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Outstanding Graduate, HUST</div> <div style="float:right; text-align:right">2015</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Microsoft Young Fellowship, Microsoft</div> <div style="float:right; text-align:right">2014</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">National Encouragement Scholarship, Ministry of Education of P.R. China</div> <div style="float:right; text-align:right">2014</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Outstanding Student Cadre, HUST</div> <div style="float:right; text-align:right">2014</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Model Student of Academic Record, HUST</div> <div style="float:right; text-align:right">2014</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">National Scholarship, Ministry of Education of P.R. China</div> <div style="float:right; text-align:right">2013</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Merit Student, HUST</div> <div style="float:right; text-align:right">2013</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">'Dexun' Scholarship, HUST</div> <div style="float:right; text-align:right">2013</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Excellent Prize, 'Seed Cup' Competition, HUST</div> <div style="float:right; text-align:right">2013</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Second Class Prize, 'Challenge Cup' Competition, National</div> <div style="float:right; text-align:right">2013</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">First Class Prize, 'Challenge Cup' Competition, Provincial</div> <div style="float:right; text-align:right">2013</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">First Class Prize, 'Seeking Cup' Competition, HUST</div> <div style="float:right; text-align:right">2012</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">Freshman Scholarship, HUST</div> <div style="float:right; text-align:right">2011</div>
-  </li>
-</ul>
-</div>
 
-<div id="patent">
-<h2>Patents</h2>
-<ul>
-  <li>US16905478 (In process), "Image processing method, apparatus, electronic device, storage medium, program product".</li>
-  <li>US16385333 (In process), "Method and system for scene parsing and storage medium".</li>
-  <li>US16929429 (In process), "Compositing aware digital image search".</li>
-  <li>CN201810893153 (In process), "Image processing method, apparatus, electronic device, storage medium, program product".</li>
-  <li>CN201611097543 (In process), "Scene parsing method and system, electronic equipment".</li>
-  <li>US15986401 (Issued Aug. 18, 2020), "Compositing aware digital image search".</li>
-  <li>CN201611097445 (Issued Aug. 11, 2020), "Deep neural network training method and system, electronic equipment".</li>
-  <li>CN201310233990 (Issued Feb. 24, 2016), "GPU-based object 3D shape measurement method".</li>
-  <li>CN201220412358 (Issued Feb. 20, 2013), "Automatic fish tank”.</li>
-</ul>
-</div>
 
-<div id="teaching">
-<h2>Teaching</h2>
-<ul>
-  <li>
-    <div style="float:left; text-align:left">ENGG5103: Techniques for Data Mining</div> <div style="float:right; text-align:right">Fall, 2018-2019</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">ENGG2601A: Technology, Society and Engineering Practice</div> <div style="float:right; text-align:right">Spring, 2017-2018</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">ENGG5103: Techniques for Data Mining</div> <div style="float:right; text-align:right">Fall, 2017-2018</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">CSCI2100B: Data Structures</div> <div style="float:right; text-align:right">Spring, 2016-2017</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">CSCI3160: Design and Analysis of Algorithms</div> <div style="float:right; text-align:right">Fall, 2016-2017</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">CSCI2520: Data Structures & Applications</div> <div style="float:right; text-align:right">Spring, 2015-2016</div>
-  </li>
-  <li>
-    <div style="float:left; text-align:left">CSCI1120: Introduction to Computing Using C++</div> <div style="float:right; text-align:right">Fall, 2015-2016</div>
-  </li>
-</ul>
-</div>
+</div> 
+</div> 
 
-<div id="footer">
-  <div id="footer-text"></div>
-</div>
-  <center>© Hengshuang Zhao | Last updated: 04/01/2022</center>
-    <!--<center>© Hengshuang Zhao
-      <script type="text/javascript" language="javascript">
-      if (Date.parse(document.lastModified) != 0) document.write(" | Last updated: " + document.lastModified);</script>
-    </center>-->
-</div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-88615920-1', 'auto');
-  ga('send', 'pageview');
 
-</script>
-
-</div>
 </body>
 </html>
+
