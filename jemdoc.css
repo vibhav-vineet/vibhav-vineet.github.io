@@ -4,7 +4,7 @@ table#tlayout {
     border: none;
     border-collapse: separate;
     background: white;
-    height:none;
+    height:850px;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 	padding-bottom: 18px;
 	margin: auto;
 	width:1000px;
-	height:none;
+	height:2150px;
 	border:1px solid gray;
 	padding:10px;
 }
